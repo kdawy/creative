@@ -1,0 +1,86 @@
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+}
+.nav-link.active {
+    color: #f4623a !important;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.7);
+        padding: 0.75rem 1rem;
+        font-weight: 700;
+        font-size: .9rem;   
+    }
+    .btn-ds {
+        border: 1px solid #f4623a;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 5px;
+        padding: 0.15rem 1rem;
+        background: transparent;
+        color: #f4623a;
+        
+    }
+    .btn-ds:hover {
+        background-color: #fff;
+    }
+
+.img-b {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/bg-masthead.jpg);
+}
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: center;
+    
+}
+.udl {
+    width:  3.25rem;
+    height: 3px;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+    opacity: 1;
+   
+    
+}
+
+.hero p {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 300 !important;
+    text-align: center;
+    max-width: 850px;
+}
+
+.btn-hero {
+    cursor: pointer;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    color: #fff;;
+}
